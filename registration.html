@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია||Registration</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <span class="auth-header"><center>რეგისტრაცია</center></span>
+        <div class="auth-cont">
+            <form action="#" method="post">
+                <div class="form-group">
+                   
+                    <label for="fName" class="inplab">მომხმარებელის სახელი</label>
+                    <input type="text" class="auth-inp" id="fName" placeholder="შეიყვანეთ მომხმარებელის სახელი">
+                </div>
+                <div class="form-group">
+                   
+                    <label for="lName" class="inplab">მომხმარებელის გვარი</label>
+                    <input type="text" class="auth-inp" id="lName" placeholder="შეიყვანეთ მომხმარებელის გვარი">
+                </div>
+                <div class="form-group">
+                   
+                    <label for="email" class="inplab">მომხმარებელის ელ-ფოსტა</label>
+                    <input type="email" class="auth-inp" id="email" placeholder="შეიყვანეთ მომხმარებელის ელ-ფოსტა">
+                </div>
+               
+            <div class="form-group">
+               <label for="address" class="inplab">მისამართი</label>
+               <select class="address" id="address">
+                
+                   <option>საქართველო</option>
+                   <option>ამერიკა</option>
+                   <option>დიდი ბრიტანეთი</option>
+                   <option>ესპანეთი</option>
+                   <option>იტალია</option>
+               </select>
+            </div>  
+            <div class="form-group">
+                <label for="date" class="inplab">დაბადების თარიღი</label>
+                <input type="date" class="auth-inp" id="date">
+            </div>
+            <div class="form-group">
+                <div class="sex-container">
+                    <label for="male" class="male">კაცი</label>
+                    <input type="radio" name="sex" id="male">
+                </div>
+                <div class="sex-container">
+                    <label for="female" class="female" >ქალი</label>
+                    <input type="radio" name="sex" id="female">
+               
+                </div>
+            </div>  
+                <div class="form-group">
+                    <label for="pass" class="inplab">პაროლი</label>
+                    <input type="password" class="auth-inp" id="pass" placeholder="შეიყვანეთ პაროლი">
+                </div>
+                <div class="form-group">
+                    <label for="passRem" class="inplab">გაიმეორეთ პაროლი</label>
+                    <input type="password" class="auth-inp" id="passRem" placeholder="გაიმეორეთ პაროლი">
+                </div>
+             
+                <div class="form-group">
+                    <input type="checkbox" id="save">
+                    <label for="save" class="save">დამახსოვრება</label>
+                </div>
+                <button class="btn btn-primary w-100 mb-15">რეგისტრაცია</button>
+                <a href="auth.html" class="btn btn-link mb-15">ავტორიზაცია</a>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
